@@ -23,6 +23,8 @@ The web interface includes:
 - 🤖 **AI Code Assistant (RAG Chatbot)**: Interactive chat grounded in exact repository file snippets.
 - 🔍 **Semantic Code Search**: Natural language search across code logic with relevance scores and symbol citations.
 - 📁 **Repository Explorer**: Live file tree navigation and code viewer.
+- 🕘 Chat History Sidebar — saves all past conversations
+- 📄 Export Chat as Markdown — one-click .md export with citations
 
 ---
 
@@ -32,6 +34,9 @@ The web interface includes:
 - **🌳 AST-Aware Code Chunker**: Intelligently parses Python functions, classes, and code blocks rather than arbitrary text splits.
 - **🎨 Modern Dark Dashboard**: High-performance UI built with React, TypeScript, Vite, and Tailwind CSS.
 - **📁 File Explorer & Status Monitor**: Live indexing stats, health check monitors, and direct file tree navigation.
+- Persistent Chat History — explains localStorage storage, auto-titles, relative timestamps, session switching, new chat & delete.
+- Export Chat as Markdown — explains the file format, citations (file path + line numbers), and use cases (PRs, docs, Notion)
+
 
 ---
 
